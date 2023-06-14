@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An exercise to help COMP1531 students learn integration testing",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
