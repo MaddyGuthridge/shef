@@ -1,0 +1,19 @@
+{
+  "name": "shef",
+  "version": "1.0.0",
+  "description": "An exercise to help COMP1531 students learn integration testing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelGuthridge/shef.git"
+  },
+  "author": "Miguel Guthridge",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MiguelGuthridge/shef/issues"
+  },
+  "homepage": "https://github.com/MiguelGuthridge/shef#readme"
+}

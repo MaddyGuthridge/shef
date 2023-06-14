@@ -26,6 +26,9 @@ In order to complete this exercise, you should.
     * `@types/jest` - Type definitions for Jest, which get us better editor
       support in VS Code.
 
+3. Set up scripts for running the CLI and running our tests by modifying the
+   `package.json` file.
+
 ### 2. Tests
 
 1. Write a test list. Use `describe` and `test.todo` to create a structure for
