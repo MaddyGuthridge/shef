@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/MiguelGuthridge/shef/issues"
   },
-  "homepage": "https://github.com/MiguelGuthridge/shef#readme"
+  "homepage": "https://github.com/MiguelGuthridge/shef#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0"
+  }
 }
