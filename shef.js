@@ -10,7 +10,7 @@
  * Copyright (C) 2023 Miguel Guthridge
  */
 
-const data = null; // FIXME: Create a data store
+const data = null; // TODO: Create a data store
 
 /**
  * Place an order, returning the order number for the given order.
@@ -24,6 +24,22 @@ const data = null; // FIXME: Create a data store
 export function placeOrder(items) {
   return {
     orderNumber: 1,
+  };
+}
+
+/**
+ * Returns details about the given order.
+ *
+ * If an order with this number doesn't exist, give an error message.
+ *
+ * @param {number} orderNumber the order number to mark as completed
+ * @returns {{ items: string[], complete: boolean } | { error: string }} list
+ * of items in the completed order, or an error message.
+ */
+export function orderDetails(orderNumber) {
+  return {
+    items: ['Tofu curry laksa'],
+    complete: false,
   };
 }
 
@@ -49,9 +65,15 @@ export function listOrders() {
  * give an error message.
  *
  * @param {number} orderNumber the order number to mark as completed
- * @returns {{ items: string[] } | { error: string }} list of items in the
- * completed order, or an error message.
+ * @returns {object | { error: string }} empty object, or an error message.
  */
 export function completeOrder(orderNumber) {
-  return { items: ['Tofu curry laksa'] };
+  return {};
+}
+
+/**
+ * Resets the program to its initial state.
+ */
+export function clear() {
+  return;
 }
