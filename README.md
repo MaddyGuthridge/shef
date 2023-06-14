@@ -54,8 +54,8 @@ $ o [items (semicolon-delimited)]
 # Place an order of the given items, printing the order number
 Your order number: 1
 
-$ q [order number]
-# Print information about an order
+$ d [order number]
+# Print details about an order
 Order 1: Tofu laksa curry, not completed.
 
 $ l
@@ -69,6 +69,6 @@ $ c [order number]
 # Mark an order as completed
 Order number 1 completed
 
-$ Ctrl+D
+$ Ctrl+C
 # Cleanly exit the program
 ```
