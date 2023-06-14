@@ -41,9 +41,10 @@ In order to complete this exercise, you should.
 
 ### 3. Implementation
 
-1. Write an implementation of the code, using test-driven development to
+1. Design a data store to keep track of the state of our program.
+2. Write an implementation of the code, using test-driven development to
    validate our work.
-2. Write a CLI (command-line interface) using the `prompt-sync` library to
+3. Write a CLI (command-line interface) using the `prompt-sync` library to
    allow users to interact with the library using their terminal.
 
 Here is an example spec of how the application could work.
@@ -53,6 +54,10 @@ $ o [items (semicolon-delimited)]
 # Place an order of the given items, printing the order number
 Your order number: 1
 
+$ q [order number]
+# Print information about an order
+Order 1: Tofu laksa curry, not completed.
+
 $ l
 # List all items currently in the queue, along with their order number
 1: Tofu curry laksa
@@ -61,6 +66,9 @@ $ l
    it isnt
 
 $ c [order number]
-# Mark an order as completed, printing out what kind of food it was
-Order number 1: Tofu curry laksa
+# Mark an order as completed
+Order number 1 completed
+
+$ Ctrl+D
+# Cleanly exit the program
 ```
