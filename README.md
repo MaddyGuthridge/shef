@@ -9,6 +9,14 @@ designed it as a replacement for the existing [pretty](../pretty/README.md)
 exercise, in order to more strongly reinforce best-practices for integration
 testing.
 
+## Solutions
+
+Worked solutions can be found
+[on the solution branch](https://github.com/MiguelGuthridge/shef/tree/solution).
+
+I did a different commit for each step of the task, so you can look at the
+commit history to see process I went through to complete the work.
+
 ## Your task
 
 In order to complete this exercise, you should.
