@@ -4,9 +4,10 @@
 Allows users to input orders and receive an order number, then allows a chef to
 read those orders and mark them as fulfilled.
 
-This is an exercise that I wrote myself, as I believe it does a better job at
-explaining integration testing, compared to COMP1531's provided exercise
-[pretty](../pretty/README.md), which covers unit testing.
+This is an exercise to help COMP1531 students learn integration testing. I
+designed it as a replacement for the existing [pretty](../pretty/README.md)
+exercise, in order to more strongly reinforce best-practices for integration
+testing.
 
 ## Your task
 
