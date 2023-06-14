@@ -27,7 +27,7 @@ beforeEach(clear);
 describe('placeOrder', () => {
   test('Places order when given valid items', () => {
     // Place an order
-    const order = placeOrder(['Caesar salad']);
+    const order = placeOrder(['Pasta']);
     // And make sure we were given an order number
     expect(order).toStrictEqual({
       // We don't know what order number we'll get specifically, so let's
