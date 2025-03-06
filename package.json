@@ -9,12 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MiguelGuthridge/shef.git"
+    "url": "git+https://github.com/MaddyGuthridge/shef.git"
   },
-  "author": "Miguel Guthridge",
+  "author": "Maddy Guthridge",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/MiguelGuthridge/shef/issues"
+    "url": "https://github.com/MaddyGuthridge/shef/issues"
   },
-  "homepage": "https://github.com/MiguelGuthridge/shef#readme"
+  "homepage": "https://github.com/MaddyGuthridge/shef#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
