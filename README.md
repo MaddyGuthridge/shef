@@ -50,7 +50,12 @@ $ Ctrl+C
 # Cleanly exit the program
 ```
 
-### 1. Setup
+### 1. Using multiple files
+
+Move the data-store to a separate file, using ESM imports to share code across
+multiple files.
+
+### 2. Setup
 
 1. Read the provided function stubs to understand the task
 
@@ -66,7 +71,7 @@ $ Ctrl+C
 3. Set up scripts for running the CLI and running our tests by modifying the
    `package.json` file.
 
-### 2. Test-driven development
+### 3. Test-driven development
 
 Technically test-driven development isn't official COMP1531 course content
 anymore, but I think it's useful to learn.
