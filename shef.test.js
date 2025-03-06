@@ -7,5 +7,5 @@
  *
  * This file contains integration tests for the app.
  *
- * Copyright (C) 2023 Miguel Guthridge
+ * Copyright (C) 2023 Maddy Guthridge
  */

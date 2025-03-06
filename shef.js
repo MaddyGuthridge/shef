@@ -7,7 +7,7 @@
  *
  * This file contains the function interface and data store definition.
  *
- * Copyright (C) 2023 Miguel Guthridge
+ * Copyright (C) 2023 Maddy Guthridge
  */
 
 const data = null; // TODO: Create a data store
