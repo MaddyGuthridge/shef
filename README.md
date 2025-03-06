@@ -12,14 +12,43 @@ testing.
 ## Solutions
 
 Worked solutions can be found
-[on the solution branch](https://github.com/MiguelGuthridge/shef/tree/solution).
+[on the solution branch](https://github.com/MaddyGuthridge/shef/tree/solution).
 
 I did a different commit for each step of the task, so you can look at the
 commit history to see process I went through to complete the work.
 
 ## Your task
 
-In order to complete this exercise, you should.
+In order to complete this exercise, you should:
+
+### 0. Understanding the project
+
+There is a simple CLI to interact with the application. Have a play around with
+it to understand how the app should work before starting with testing.
+
+```txt
+$ o [items (semicolon-delimited)]
+# Place an order of the given items, printing the order number
+Your order number: 1
+
+$ d [order number]
+# Print details about an order
+Order 1: Tofu laksa curry, not completed.
+
+$ l
+# List all items currently in the queue, along with their order number
+1: Tofu curry laksa
+2: Sushi
+3: A pizza, (with pineapple if you think that's a crime, without it if you
+   think it isn't)
+
+$ c [order number]
+# Mark an order as completed
+Order number 1 completed
+
+$ Ctrl+C
+# Cleanly exit the program
+```
 
 ### 1. Setup
 
@@ -37,46 +66,24 @@ In order to complete this exercise, you should.
 3. Set up scripts for running the CLI and running our tests by modifying the
    `package.json` file.
 
-### 2. Tests
+### 2. Test-driven development
+
+Technically test-driven development isn't official COMP1531 course content
+anymore, but I think it's useful to learn.
 
 1. Write a test list. Use `describe` and `test.todo` to create a structure for
    all the tests we plan on writing.
 
-2. Implement the tests by calling the function stubs and checking both the
-   return values and the side effects.
+2. Implement some simple tests
 
 3. Run the tests and observe that they all fail.
 
-### 3. Implementation
+4. Write the implementation so that the tests pass
 
-1. Design a data store to keep track of the state of our program.
-2. Write an implementation of the code, using test-driven development to
-   validate our work.
-3. Write a CLI (command-line interface) using the `prompt-sync` library to
-   allow users to interact with the library using their terminal.
+5. Update the tests again so that the implementation fails the tests
 
-Here is an example spec of how the application could work.
+6. Update the implementation again to make it pass the tests
 
-```sh
-$ o [items (semicolon-delimited)]
-# Place an order of the given items, printing the order number
-Your order number: 1
+7. Repeat steps 5 and 6 until you run out of ideas for tests
 
-$ d [order number]
-# Print details about an order
-Order 1: Tofu laksa curry, not completed.
-
-$ l
-# List all items currently in the queue, along with their order number
-1: Tofu curry laksa
-2: Sushi
-3: A pizza, with pineapple if you think thats a crime, without it if you think
-   it isnt
-
-$ c [order number]
-# Mark an order as completed
-Order number 1 completed
-
-$ Ctrl+C
-# Cleanly exit the program
-```
+8. You're done!
